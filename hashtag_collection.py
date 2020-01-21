@@ -3,10 +3,10 @@ import tweepy
 from tweepy import OAuthHandler, StreamListener
 import csv
 
-access_token = "1194760559960440832-RLoHD1icYgoP5FtAYHD8o6tGx16KJI"
-access_token_secret = "k8whdJU5UihDgotrTaKlolvzbzWW1Rvly3SsbiDZuVHli"
-consumer_key = "SxGCQeOKN8eORxCJnjynB3oE6"
-consumer_secret = "L6bxrR8uiFJnA6hlQ6UZgOLwBZyKpD2G4TcQXf0aVaxu3w5kF2"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 
 class StdOutListener(StreamListener):
